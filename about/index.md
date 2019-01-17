@@ -1,35 +1,43 @@
 ---
 layout: page
-title: About 
+title: About
 tags: [about, nardtree, catindog, programming, machine-learning]
-date: 2017-04-2
+date: 2019-01-17
 comments: false
 ---
-    
-<center><a href="http://gink03.github.io"><b>github</b></a> is used as SNS of Programming, Machine Learning.</center>
 
-## Features
-* An engineer
-* Machine Learning
-* Deep Learning
-* Love novels(Especially Science Fictions)
-* Optimization
-* High Performance Coputing
-* GPU Computing
+<center><a href="http://nishidayoshikatsu.github.io"><b>github</b></a> is used as SNS of Programming, Machine Learning.</center>
 
-## Getting Started
+## TimeLine
 
-Twitterやはてなブログをみていただけると、どんなひとかわかりやすいかもしれません
+* 2014.4：松江工業高等専門学校 電子制御工学科 入学
+    |
+    ---2014：高専ロボコンに参加
+    ---2015：高専ロボコンにピットクルーとして参加 (ロボットの足回り設計)
+    ---2016：高専ロボコンにチームリーダーとして参加 (ロボットの全体設計)
+    　　　　　高専ロボコン全国大会ピットクルーとして参加 (ロボットの全体設計)
+    ---2017：学生ロボコンに応募。第2次ビデオ審査で落選
+             高専ロボコンにチームリーダーとして参加 (ロボットの全体設計×2)
+             高専ロボコン全国大会ピットクルーとして参加 (ロボットの全体設計)
+    ---2018：高専ロボコンにピットクルーとして参加 (自動ロボットのプログラム)
+             WeekendEnginner (WE) というものづくりコミュニティに参加
+             WEのコンペティションチームのリーダーとしてKaggleでメダルを取るために活動中
+             「深層強化学習におけるロボットの注視領域の可視化手法に関する検討」というタイトルで研究中
+             「平成30年度 日本知能情報ファジィ学会中国・四国支部大会」にて支部奨励賞を受賞
+             (http://www2.matsue-ct.ac.jp/home/horiuchi/SOFTCS/conference_current.html)
 
-[Twitter](https://twitter.com/nardtree)  
-[はてなブログ](http://catindog.hatenablog.com/)  
+* 2018.3：松江工業高等専門学校 電子制御工学科 卒業予定
+* 2019.4：山口大学 工学部 知能情報工学科 入学予定
 
-## My Policy
+## Language & Framework
 
-世の中には様々な哲学や価値観の方がいます。そこで、なるべく多くの人に快適に過ごしていただくために、特に、以下のルールを守りたいと考えています。 　　
+触ったことがあるプログラミング言語/フレームワーク一覧です。
 
-公の発言は全て以下のルールを遵守しているつもりです。
-
-[Code For Contact(ja)](http://ja.confcodeofconduct.com/)  
-
-[Code For Contact(en)](http://confcodeofconduct.com/)
+* Python
+    *Flask
+    *chainer
+* C/C++
+* Ruby
+* HTML/CSS
+* JavaScript
+* VisualBasic
