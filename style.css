@@ -1,19 +1,23 @@
-body {
+body {      /* ボディ全体の設定 */
     background-color: white;
     margin: 0;
     padding: 0;
 }
 
-header {    /*ヘッダー専用のスタイル*/
+header {    /* ヘッダー専用のスタイル */
     background-image: url("images/textures2.png");  /* 表示する画像 */
     margin: 0;
     padding: 15px;
     color: white;
+
+    display: flex;
+    list-style-type: none;
 }
 
 header h1 {
     /*position: absolute;*/
     text-align: center;
+    top: 10px;
 }
 
 .main-nav a {
@@ -34,6 +38,14 @@ header h1 {
     background-position: center center;  /* 横長画像の左上を基準に表示 */
     /*display: inline-block;*/          /* 複数の画像を横に並べたい場合 */
     border: 5px orangered solid;
+}
+
+.main-nav .now_info {
+    margin: 10px;
+    color: #fff;
+    /*display: block;*/
+    padding: 15px;
+    text-decoration: none;
 }
 
 .main-nav {
