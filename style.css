@@ -65,11 +65,31 @@ header h1 {
     padding: 15px;
 }
 .main h1 {
-    color: #E6AC27;
-    font-size: 1.5rem;
+    color: blue;
+    font-size: 25px;
 }
 .main p {
     margin-top: 10px;
+}
+
+.main .col-1 {
+    font-size: 16px;
+}
+
+.main .col-2 {
+    font-size: 16px;
+}
+
+.main .col-3 {
+    font-size: 16px;
+}
+
+.main .col-4 {
+    font-size: 16px;
+}
+
+.main .col-5 {
+    font-size: 16px;
 }
 
 footer {    /*フッダー専用のスタイル*/
