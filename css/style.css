@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+body {      /* ボディ全体の設定 */
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {    /* ヘッダー専用のスタイル */
+    background-image: url("../images/textures2.png");  /* 表示する画像 */
+    margin: 0;
+    padding: 15px;
+    color: white;
+
+    display: flex;
+    list-style-type: none;
+}
+
+header h1 {
+    /*position: absolute;*/
+    text-align: center;
+    top: 10px;
+}
+
+.main-nav a {
+    margin: 10px;
+    border-radius: 5px;
+    background: #60B99A;
+    color: #fff;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.main-nav .logo {
+    background-image: url("../images/icon.png");  /* 表示する画像 */
+    width:  200px;       /* ※縦横を同値に */
+    height: 200px;       /* ※縦横を同値に */
+    border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+    background-position: center center;  /* 横長画像の左上を基準に表示 */
+    /*display: inline-block;*/          /* 複数の画像を横に並べたい場合 */
+    border: 5px orangered solid;
+}
+
+.main-nav .now_info {
+    margin: 10px;
+    color: #fff;
+    /*display: block;*/
+    padding: 15px;
+    text-decoration: none;
+}
+
+.main-nav {
+    display: flex;
+    list-style-type: none;
+}
+
+.main-nav li:first-child {
+    margin-right: auto;
+}
+
+
+.main section {
+    margin: 10px;
+    border-radius: 5px;
+    background: #F5F0CF;
+    padding: 15px;
+}
+.main h1 {
+    color: blue;
+    font-size: 25px;
+}
+.main p {
+    margin-top: 10px;
+}
+
+.main .col-1 {
+    font-size: 16px;
+}
+
+.main .col-2 {
+    font-size: 16px;
+}
+
+.main .col-3 {
+    font-size: 16px;
+}
+
+.main .col-4 {
+    font-size: 16px;
+}
+
+.main .col-5 {
+    font-size: 16px;
+}
+
+footer {    /*フッダー専用のスタイル*/
+    background-image: url("../images/textures2.png");  /* 表示する画像 */
+    margin: 0;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}

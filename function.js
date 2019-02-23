@@ -1,8 +1,12 @@
 bubbly();
 
-var ctx = document.getElementById("cv").getContext("2d");
+var techbtn = document.getElementById("technical-blog");
+var otbtn = document.getElementById("technical-blog");
 
-ctx.beginPath();
-ctx.fillStyle = 'rgb(192, 80, 77)'; // 赤
-ctx.arc(120, 120, 100, 0, Math.PI*2, true);
-ctx.fill();
+techbtn.addEventListener( "click", function() {
+    alert("未実装領域だよ！！！！");
+});
+
+otbtn.addEventListener( "click", function() {
+    alert("未実装領域だよ！！！！");
+});
