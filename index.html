@@ -1,190 +1,57 @@
 <!DOCTYPE html>
-<html lang="jp">
-    <head>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>NSDのポートフォリオ</title>
-		<link rel="stylesheet" href="style.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-		<script type="text/javascript" src="function.js"></script>
-    </head>
-    <body>	<!--文章-->
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>風景写真家「SNAPPERS」Official Website</title>
+  <link href="https://fonts.googleapis.com/css?family=Bitter:400,700" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <script src="bubbly-bg.js"></script>
+</head>
+<body id="index">
 
-		<header>	<!--ページ上部のヘッダー部分-->
-			<nav>
-				<ul class="main-nav">
-					<li><a href="#" class="logo"></a></li>
-					<li>
-						<h2 href="#" class="now_info">
-							<dl>
-								<dt>西田　吉克</dt><hr>
-								<dd>
-									<h3>
-										田舎に住んでいる高専生。<br>
-										現在は、「深層強化学習におけるロボットの注視領域の可視化に関する検討」というタイトルで卒業研究に取り組んでいる。<br>
-										また、KaggleやAtcorderを昨年からはじめた。
-									</h3>
-								</dd>
-							</dl>
-						</h1>
-					</li>
-					<!--<li><a href="#">今までの経歴</a></li>
-					<li><a href="#">関心分野</a></li>
-					<li><a href="#">成果物</a></li>
-					<li><a href="#">推定能力値</a></li>
-					<li><a href="#">このサイトについて</a></li>-->
-				</ul>
-			</nav>
+  <!-- header始まり -->
+  <header>
+    <div class="logo">
+      <a href="index.html"></a>
+    </div>
+    <nav>
+      <ul class="global-nav">
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="technical-blog.html">Technical Blog</a></li>
+        <li><a href="other-blog.html">Other Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- header終わり -->
 
-		</header>
+  <!-- wrap始まり -->
+  <div id="wrap">
+    <div class="content">
+      <h1>ものづくりを<br>楽しもう！</h1>
+      <p>
+        興味ある事柄
+        <ul>
+          <li>自作PC</li>
+          <li>機械学習</li>
+          <li>AR/VR</li>
+          <li>IoT</li>
+          <li>ロボット</li>
+          <li>電子工作</li>
+          <li>Webアプリ</li>
+        </ul>
+      </p>
+      <p class="btn"><a href="portfolio.html">My Portfolio</a></p>
+    </div>
+  </div>
+  <!-- wrap終わり -->
 
-		<div class="main">
-				<section class="col-1">
-					<h1>学歴</h1>
-					<p>2011.04：島根大学教育学部附属中学校 入学</p>
-					<p>2014.03：島根大学教育学部附属中学校 卒業</p>
-					<p>2014.04：松江工業高等専門学校 電子制御工学科 入学</p>
-					<p>2019.03：松江工業高等専門学校 電子制御工学科 卒業予定</p>
-					<p>2019.04：山口大学 工学部 知能情報工学科 入学予定</p>
-					<p>2021.04：山口大学 工学部 知能情報工学科 卒業予定</p>
-				</section>
-				<section class="col-2">
-					<h1>公式ものづくり歴</h1>
-					<p>2014：松江高専の高専ロボコンチームに参加し、中国地区大会を観戦した。ロボットの部品加工・装飾を手伝った。</p>
-					<p>2015：<font color="green">高専ロボコン2015中国地区大会</font>で、「松江Aチーム」のピットメンバーとして参加し、「松江A」チームのロボットの足回り設計を手伝った。<font color="red">東京エレクトロン賞受賞！</font><br>
-						&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;➡<a href="http://www.nhk.or.jp/robocon/rbcn2015/kstream/area02/chugoku.html" target="_blank">「中国地区大会出場校の紹介ページ」</a>、
-						　<a href="https://www.matsue-ct.jp/m/index.php/186-all-topics/topics201510/1691-tp2015091011" target="_blank">「松江高専による紹介ページ」</a></p>
-					<p>2016：<font color="green">高専ロボコン2016中国地区大会</font>で、「松江Aチーム」のチームリーダーとして参加し、「松江A」チームのロボットの設計を行った。<font color="red">マブチモータ賞受賞！</font><br>
-						&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;➡<a href="http://www.nhk.or.jp/robocon/rbcn2016/kstream/area02/chugoku.html" target="_blank">「中国地区大会出場校の紹介ページ」</a>、
-						　<a href="https://www.matsue-ct.jp/m/index.php/198-all-topics/topics201610/2088-tp20161025" target="_blank">「松江高専による紹介ページ」</a></p>
-						<p>&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;<font color="green">高専ロボコン2016全国大会</font>で、「松江Bチーム」のピットメンバーとして参加し、「松江B」チームのロボットの設計を手伝った。<br>
-							&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;➡<a href="http://www.nhk.or.jp/robocon/rbcn2016/kstream/area01/zenkoku.html" target="_blank">「全国大会出場校の紹介ページ」</a>、
-						　<a href="https://www.matsue-ct.jp/m/index.php/199-all-topics/topics201611/2103-tp20161124" target="_blank">「松江高専による紹介ページ」</a></p>
-					<p>2017：<font color="green">学生ロボコン(旧名称：大学ロボコン)2017</font>にチームリーダーとして応募したが、第2次ビデオ審査で落選。</p>
-						<p>&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;<font color="green">高専ロボコン2017中国地区大会</font>で、「松江Bチーム」のチームリーダーとして参加し、「松江Bチーム」のロボットの設計を行った。<font color="red">本田技研工業賞受賞！</font><br>
-							&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;➡<a href="http://www.official-robocon.com/kosen/event/result_chugoku" target="_blank">「中国地区大会結果」</a>、
-						　<a href="https://www.matsue-ct.jp/m/index.php/210-all-topics/topics201710/2249-tp20171018" target="_blank">「松江高専による紹介ページ」</a></p>
-						<p>&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;<font color="green">高専ロボコン2017全国大会</font>で、「松江Aチーム」のピットメンバーとして参加し、「松江A」チームのロボットの設計を手伝った。<br>
-							&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;➡<a href="http://www.official-robocon.com/kosen/event/result_zenkoku" target="_blank">「全国大会結果」</a>、
-						　<a href="https://www.matsue-ct.jp/m/index.php/212-all-topics/topics201712/2266-tp20171208" target="_blank">「松江高専による紹介ページ」</a></p>
-					<p>2018：卒業研究「深層強化学習におけるロボットの注視領域の可視化に関する検討」に取り組み始める。<br>
-						&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;<font color="green">高専ロボコン2018中国地区大会</font>で、「松江Aチーム」のピットメンバーとして参加し、「松江Aチーム」の自動ロボットのプログラムを行った。<br>
-						&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;➡<a href="https://www.nhk.or.jp/robocon/kosen/team.html" target="_blank">「中国地区大会出場校の紹介ページ」</a>、
-						　<a href="https://www.matsue-ct.jp/m/index.php/222-all-topics/topics201810/2582-2018102401" target="_blank">「松江高専による紹介ページ」</a></p>
-						<p>&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;Atcorderに登録し、Beginner Contestに参加し始める。<br>
-						<p>&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;WeekendEnginner (WE)というものづくりコミュニティに入る。<br>
-							&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;➡<a href="https://seven0525.github.io/wp_hp2/index.html" target="_blank">「WeekendEnginner」</a>
-						<p>&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;Kaggleに登録し、Titanicコンペに参加する。<br>
-							&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;➡<a href="https://www.kaggle.com/nsd244/competitions" target="_blank">「nsd244's Kaggle account」</a>
-						<p>&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;WEの中でコンペティションチーム (Kaggleをやるチーム)を結成し、リーダーとなる。<br>
-						<p>&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;<font color="green">平成30年度 日本知能情報ファジィ学会中国・四国支部大会</font>で発表し、<font color="red">支部奨励賞受賞！</font>
-							<a href="http://www2.matsue-ct.ac.jp/home/horiuchi/SOFTCS/conference_current.html" target="_blank">「平成30年度 日本知能情報ファジィ学会中国・四国支部大会」</a>
-				</section>
-				<section class="col-3">
-					<h1>非公式ものづくり歴</h1>
-					<p>2018：強化学習AIと戦う鬼ごっこゲーム (改良中)</p>
-						<p>&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;➡Python用ゲームモジュール「Pygame」や強化学習の代表的な手法であるQ学習を用いて、鬼ごっこゲームを作成</p>
-						&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;➡<a href="https://github.com/nishidayoshikatsu/Tag_AI" target="_blank">github url</a><br>
-						&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;<video controls autoplay loop width="500"><source src="./video/tag_ai.mp4"></video>
-						<br><br><p>&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;接待オセロ</p>
-						&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;➡ディープラーニングフレームワークtensorflowを用いて、接待するオセロAIを作成</p>
-						&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;➡<a href="https://github.com/nishidayoshikatsu/Tag_AI" target="_blank">github url</a><br>
-						&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;<video controls autoplay loop width="500"><source src="./video/entertainment_othello.mp4"></video>
-					<p>2019：ポートフォリオページの作成(このページ)(改良中)</p>
-						<p>&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;➡HTML/CSS+Bootstrapを用いてgithubpagesで公開</p>
-						&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;➡<a href="https://github.com/nishidayoshikatsu/nishidayoshikatsu.github.io" target="_blank">github url</a><br>
-				</section>
-				<section class="col-4">
-					<h1>今までに取り組んだ技術書</h1>
-					<p>githubのREADMEに今までに取り組んだ技術書のリストを記述した。</p>
-					<a href="https://github.com/nishidayoshikatsu/technical_book" target="_blank">github url</a><br>
-				</section>
-				<section class="col-5">
-					<h1>ハッカソン歴</h1>
-					<p>第1回WEハッカソン</p>
-					&nbsp;<p>テーマは、クリスマスに関するWebアプリで、Watson APIを使うという条件のもと行われた。</p>
-					&nbsp;<p>私は、Twitter APIによるクリスマスの話題収集、「クリスマス」というワードでスクレイピングしてリストアップすることを行った<br>
-						&nbsp;組み込みが間に合わなかったが、WatsonのSpeechToText APIの実装も行った。</p>
-					&nbsp;<img src="./images/hackathon1.png" alt = "制作物の内容" width="500">
-					<br>&nbsp;<a href="https://github.com/nishidayoshikatsu/conversation_recommend" target="_blank">github url</a><br>
-				</section>
-				<section class="col-5">
-						<h1>経験スキル (自分なりに10段階で評価)</h1>
-						<ul>
-							<li>プログラミング</li>
-							<ul>
-								<li>Python---7</li>
-								<ul>
-									<li>自分の中では一番自信がある言語。</li>
-									<li>chainer, chainerrlは研究でcnn, dqnの実装経験あり</li>
-									<li>numpy, pandasは研究やKaggleで使用経験あり</li>
-									<li>matplotlib, seabornは研究やKaggleで使用経験あり(データ分析の際に可視化するのに用いる)</li>
-									<li>scikit-learnはKaggleのTitanicコンペやirisのデータ分析で使用経験あり</li>
-									<li>スクレイピング、twitter api、LINE Messaging APIの利用経験あり</li>
-								</ul>
-								<li>HTML/CSS---5</li>
-								<ul>
-									<li>このサイトの制作に用いた。多々改善点があるのでこれから勉強が必要</li>
-								</ul>
-								<li>JavaScript---4</li>
-								<ul>
-									<li>具体的な実装経験はまだない。</li>
-								</ul>
-								<li>Ruby---4</li>
-								<ul>
-									<li>授業で学んだ程度の知識</li>
-									<li>具体的な実装経験はまだない。</li>
-								</ul>
-								<li>C/C++---7</li>
-								<ul>
-									<li>高専ロボコンの自動ロボットの制御に用いた。</li>
-									<li>ポインタのポインタの理解に手間取った記憶がある。</li>
-									<li>様々なアルゴリズムの実装経験あり(詳細は技術書↑を参照)</li>
-								</ul>
-								<li>Visual Basic---5</li>
-								<ul>
-									<li>授業で学んだ程度の知識</li>
-									<li>関数電卓、フラッシュ暗算アプリの実装経験あり</li>
-								</ul>
-								<li>gitでの開発経験---4</li>
-								<ul>
-									<li>第1回WEハッカソンの時は僕のgitの知識がほとんどなく、チームの人に助けてもらった。</li>
-									<li>それ以降は、個人でgitも使い始め慣れてきている。</li>
-								</ul>
-							</ul>
-							<li>ハード設計</li>
-							<ul>
-								<li>solidworksでの設計---7</li>
-								<ul>
-									<li>ロボコンをやっているときにメインで用いてロボット設計を行った。</li>
-									<li>設計経験がある材料は、アルミA5052やMSナイロン、炭素鋼S45Cなどの板材、中実丸棒、丸パイプ、角パイプ</li>
-									<li>合計10台のロボット設計に関わった。(設計しなおしも含め)(1人で設計したのは5台)</li>
-									<li>強度計算などの経験はない</li>
-								</ul>
-								<li>fusion360での設計---4</li>
-								<ul>
-									<li>1人でちょっとしたものを作るときに使ったことがある程度</li>
-								</ul>
-							</ul>
-							<li>機械加工</li>
-							<ul>
-								<li>卓上ボール盤--9</li>
-								<li>糸鋸--9</li>
-								<li>普通旋盤--9</li>
-								<li>立フライス盤--9</li>
-								<li>NC旋盤--8</li>
-								<li>レーザー加工機(CO2)--7</li>
-								<li>曲げ加工機--6</li>
-							<ul></ul>
-						</ul>
+  <!-- footer始まり -->
+  <footer>
+    <small>(C)2019 NSD-studio.</small>
+  </footer>
+  <!-- footer終わり -->
 
-					</section>
-		</div>
+  <script src="function.js"></script>
 
-		<footer>	<!--ページ上部のフッダー部分-->
-			<h2>Designed by NSD　　© 2019 NSD</h2>
-		</footer>
-
-    </body>
+</body>
 </html>

@@ -1,9 +1,8 @@
-/* eslint-disable */
+bubbly();
 
-var $tabs = $('.tabs .tab');
+var ctx = document.getElementById("cv").getContext("2d");
 
-$tabs.click(function(event) {
-  var selectedClass = 'is-tab-selected';
-  $tabs.removeClass(selectedClass);
-  $(event.target).addClass(selectedClass);
-});
+ctx.beginPath();
+ctx.fillStyle = 'rgb(192, 80, 77)'; // 赤
+ctx.arc(120, 120, 100, 0, Math.PI*2, true);
+ctx.fill();
