@@ -73,7 +73,15 @@ canvas {
 	padding-top: 100px;
     width: 100vw;
     top: 700px; /* 下に 10px 下げる */
-    left: 30vw;
+	left: 30vw;
+}
+.content2 .title {
+	height: 6vw;
+	font-size: 50px;
+}
+.c{
+	height: 5vw;
+	font-size: 30px;
 }
 .content3 {
 	/*background-image: url(../images/background1.png);*/
@@ -83,18 +91,43 @@ canvas {
 	padding-top: 100px;
     width: 100vw;
     top: 800px; /* 下に 10px 下げる */
-    left: 35vw;
+	left: 35vw;
 }
 .title {
 	font-size: 50px;
 }
 
 .site-footer{
-	background: #333;
+	background: rgba(240, 225, 14, 0.479);
     padding: 50px 0;
     position: relative;/*←絶対位置*/
     bottom: 0; /*下に固定*/
     top: 900px; /* 下に 10px 下げる */
+}
+.icon_table {
+	width: 100%;
+	height:100px;
+	text-align: justify;
+	text-justify: distribute-all-lines; 
+}
+.icon{
+	content:"";
+	display: inline-block;/*ブロックレベル要素に横並びにする*/
+	line-height:0;
+	height: 0;
+	letter-spacing:normal;
+	text-align: center;
+	width: 19vw;
+}
+.iconimg{
+	height: 80px;
+	width: auto;
+}
+#mail {
+	color: rgb(59, 45, 45);
+	font-size: 3vw;
+	text-align: center;
+	height:6vw;
 }
 .copyright{
 	color: #fff;
