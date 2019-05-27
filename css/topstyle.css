@@ -1,167 +1,51 @@
-@charset "utf-8";
-
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #cccccc;
-  color: #333333;
-  font-size: 15px;
-  line-height: 2;
+body{
+  background: #81bcd8;
 }
-
-p,h1,h2,h3,h4,h5,h6 {
-  margin-top: 0;
+.site-header{
+  background: #fff;
+  display: flex;
+  padding: 60px 20px;
+  position: fixed;
+  justify-content: space-between;
+  width: 100%;
 }
-
-img {
-  vertical-align:bottom;
+.site-logo img{
+  height: 20px;
+  width: auto;
 }
-
-ul {
-  margin: 0;
-  padding: 0;
+.gnav__menu{
+  display: flex;
 }
-
-a {
-  color: #3583aa;
+.gnav__menu__item{
+  margin-left: 20px;
+}
+.gnav__menu__item a{
+  color: #333;
   text-decoration: none;
 }
-
-a:visited {
-  color: #788d98;
+.hero{
+  max-height: 500px;
+  overflow: hidden;
 }
-
-a:hover {
-  text-decoration: underline;
+.hero img{
+  height: auto;
+  width: 100%;
 }
-
-header {
-  width: 960px;
-  height: 100px;
+.content{
+  line-height: 1.6;
   margin: 0 auto;
+  padding-top: 100px;
+  width: 800px;
 }
-
-.logo {
-  float: left;
-  margin-top: 50px;
-  background-image: url("../images/header.png");  /* 表示する画像 */
-  /*max-width: 500px;
-  height: auto;*/
-  width:  500px;
-  height: 100px;
-  border-radius: 1%;  /* 角丸半径を5%にする */
-  background-position: center center;  /* 横長画像の左上を基準に表示 */
-  /*border: 5px orangered solid;*/
+.content p{
+  margin-bottom: 40px;
 }
-
-.global-nav {
-  float: right;
-  margin-top: 60px;
+.site-footer{
+  background: #333;
+  padding: 80px 0;
 }
-
-.global-nav li {
-  float: left;
-  margin: 0 20px;
-  font-size: 20px;
-  list-style: none;
-  font-family: 'Bitter', serif;
-}
-
-.global-nav li a {
-  color: #ffffff;
-}
-
-.global-nav li a:hover {
-  border-bottom: 2px solid #ffffff;
-  padding-bottom: 3px;
-  text-decoration: none;
-}
-
-#wrap {
-  clear: both;
-}
-
-.content {
-  width: 960px;
-  margin: 0 auto;
-}
-
-footer {
-  text-align: center;
-  color: #ffffff;
-  padding: 20px 0;
-}
-
-footer small {
+.copyright{
+  color: #fff;
   font-size: 12px;
-}
-
-#index h1 {
-  font-size: 90px;
-  line-height: 1;
-  color: #ffffff;
-  font-family: 'Bitter', serif;
-  margin-bottom: 50px;
-}
-
-#index .content {
-  margin-top: 150px;
-}
-
-#index p {
-  font-size: 16px;
-  color: #ffffff;
-}
-
-#interest {
-  color: #30e203;
-}
-
-.btn a {
-  color: #ffffff;
-  font-size: 20px;
-  font-family: 'Bitter', serif;
-  width: 185px;
-  display: block;
   text-align: center;
-  line-height: 50px;
-  margin-top: 20px;
-  border-radius: 5px;           /*ボタンの角にRをつける*/
-  border: 3px solid #c4dbe4;  /*ボタンに枠線をつける(あとで中の色を反転させるため)*/
-}
-
-#portfolio {
-  background-color: #d30023;
-  float: left;
-}
-
-#technical-blog {
-  background-color: #3aec84;
-  float:left;
-  margin-left: 200px
-}
-
-#other-blog {
-  background-color: #f37ef7;
-  float:right;
-}
-
-.btn a:hover {
-  text-decoration: none;
-  background-color: #ffffff;
-  color: #009cd3;
-}
-
-#index footer {
-  width: 960px;
-  margin: 150px auto 0 auto;
-  text-align: left;
-}
-
-#index {
-  background-image: url(../../images/bg-index.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: cover;
 }
