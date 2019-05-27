@@ -9,7 +9,8 @@ body{
 	font-size: 20px;
 }
 .site-header{
-	background: rgb(238, 6, 6);
+	background-image: url(../images/background2.png);
+	/*background: rgb(238, 6, 6);*/
 	display: flex;
 	padding: 20px 20px;
 	position: fixed;
@@ -45,8 +46,8 @@ canvas {
     display:block;
     position: absolute;
     left: 0;
-    top: 0;
-    z-index: -1;    /*後ろにする*/
+	top: 0;
+	z-index: -1;    /*後ろにする*/
 }
 .content1{
     position: relative;
@@ -65,12 +66,35 @@ canvas {
 	margin-bottom: 40px;
 }
 
+.content2 {
+    position: relative;
+	line-height: 1.6;
+	margin: 0 auto;
+	padding-top: 100px;
+    width: 100vw;
+    top: 700px; /* 下に 10px 下げる */
+    left: 30vw;
+}
+.content3 {
+	/*background-image: url(../images/background1.png);*/
+    position: relative;
+	line-height: 1.6;
+	margin: 0 auto;
+	padding-top: 100px;
+    width: 100vw;
+    top: 800px; /* 下に 10px 下げる */
+    left: 35vw;
+}
+.title {
+	font-size: 50px;
+}
+
 .site-footer{
 	background: #333;
     padding: 50px 0;
     position: relative;/*←絶対位置*/
     bottom: 0; /*下に固定*/
-    top: 1000px; /* 下に 10px 下げる */
+    top: 900px; /* 下に 10px 下げる */
 }
 .copyright{
 	color: #fff;

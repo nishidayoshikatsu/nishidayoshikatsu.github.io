@@ -1,69 +1,51 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>NSD's Website</title>
-  <link href="https://fonts.googleapis.com/css?family=Bitter:400,700" rel="stylesheet">
-  <link href="css/topstyle.css" rel="stylesheet">
-  <script src="bubbly-bg.js"></script>
+	<meta charset="UTF-8">
+	<title>NSD's Web site</title>
+	<link href="./css/topstyle1.css" rel="stylesheet" type="text/css">
+  <link href="./css/topstyle2.css" rel="stylesheet" type="text/css">
 </head>
-<body id="index">
-
-  <!-- header始まり -->
-  <header>
-    <div class="logo">
-      <a href="index.html"></a>
-    </div>
-    <nav>
-      <ul class="global-nav">
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="index.html" id="technical">Technical Blog</a></li>
-        <li><a href="index.html" id="other">Other Blog</a></li>
-      </ul>
-    </nav>
+<body>
+  <!-- header部分 -->
+  <header class="site-header">
+		<h1 class="site-logo">
+			<img src="./images/icon.png" alt="NSD">
+		</h1>
+		<nav class="gnav">
+			<ul class="gnav__menu">
+				<li class="gnav__menu__item" id="thispage"><a href="">Top page</a></li>
+				<li class="gnav__menu__item" id="portfolio"><a href="portfolio.html">Portfolio</a></li>
+				<li class="gnav__menu__item" id="blog"><a href="">Blog</a></li>
+			</ul>
+		</nav>
   </header>
-  <!-- header終わり -->
 
-  <!-- wrap始まり -->
-  <div id="wrap">
-    <div class="content">
-      <h1>Let's enjoy<br>&nbsp;&nbsp;making things!</h1>
-      <h3>
-        このWeb Siteでは、自分のポートフォリオや技術ブログ、その他のブログについて書いていきます。<br>
-        とりあえず初心者向けの○○の作り方などについて書いていこうかなと思ってます。<br>
-        まだ工事中なので、「デザイン、配置がクソ！」という批判はちょっとまってください。。。<br>
-        要望・改善点等あれば<a href="https://twitter.com/nsd244">Twitterアカウント</a>でDMしてください！
-        2019/2/24現在レスポンシブデザイン未対応
-      </h3>
-      <p id="interest">
-        興味ある事柄
-        <ul>
-          <li>自作PC</li>
-          <li>機械学習</li>
-          <li>AR/VR/MR/SRなどのXR</li>
-          <li>IoT</li>
-          <li>ロボット</li>
-          <li>電子工作</li>
-          <li>Webアプリケーション</li>
-          <li>Androidアプリ</li>
-        </ul>
-      </p>
-      <p class="btn">
-        <a id="portfolio" href="portfolio.html">Portfolio</a>
-        <a id="technical-blog" href="index.html">Technical Blog</a>
-        <a id="other-blog" href="index.html">Other Blog</a>
-      </p>
-    </div>
-  </div>
-  <!-- wrap終わり -->
+	<div class="content1">
+    <h1><span id="ityped"></span></h1>
+	</div>
+	<div class="content2">
+		<h1 class="title">このWebページのコンテンツ</h1>
+		<h2>
+			<ul>
+				<li>このページ：このWeb siteの概要</li>
+				<li>Portfolio：自己紹介、経歴、スキル、制作物などの紹介</li>
+				<li>Blog：qiitaで書いている技術ブログ、はてなブログで書いているイベント参加ブログの紹介</li>
+			</ul>
+		</h2>
+	</div>
+	<div class="content3">
+		<h1 class="title">Recent Activity</h1>
+		<a class="twitter-timeline" href="https://twitter.com/nsd244?ref_src=twsrc%5Etfw" data-width="30vw" data-height="40vw">Tweets by NSD</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	</div>
 
-  <!-- footer始まり -->
-  <footer>
-    <small>Designed by NSD　　© 2019 NSD</small>
+  <!-- footer部分 -->
+	<footer class="site-footer">
+		<p class="copyright">Designed by NSD　　© 2019 NSD</p>
   </footer>
-  <!-- footer終わり -->
 
-  <script src="function.js"></script>
-
+  <script src="./js/p5.js"></script>
+  <script src="https://unpkg.com/ityped@1.0.2"></script>
+  <script src="./js/animation.js"></script>
 </body>
 </html>

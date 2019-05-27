@@ -1,10 +1,11 @@
 ityped.init(document.querySelector("#ityped"), {
   loop: true,
   showCursor: true,
-  strings: ["Welcome to NSD's Web site！！"]
+  strings: ["Welcome to NSD's Web site！！\n　　つよつよになりたいよ😭😭"]
 })
 
 var techbtn = document.getElementById("blog");
+let backimg;
 
 techbtn.addEventListener( "click", function() {
     alert("未実装領域だよ！！！！ちょっとまって！！なんでもしますから！！！");
@@ -14,7 +15,7 @@ techbtn.addEventListener( "click", function() {
 // with width, height and depth of 50
 function setup() {
   createCanvas(windowWidth, windowHeight, WEBGL);
-  //img = loadImage("../images/textures.png");
+  backimg = loadImage("../images/background2.png");
 }
 
 function draw() {
@@ -25,5 +26,4 @@ function draw() {
   rotateX(frameCount * 0.03);
   rotateY(frameCount * 0.03);
   box(200);
-
 }
